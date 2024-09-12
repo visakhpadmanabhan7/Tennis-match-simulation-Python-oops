@@ -29,3 +29,12 @@ if __name__ == "__main__":
     ])
     tennis_game3.start_match()
 
+    print('----------xxxxxxxxxx------------')
+    print('Match 4')
+    player1 = Player("Visakh")
+    player2 = Player("player2")
+    # Third tennis game simulation
+    tennis_game4 = TennisGame(player1, player2, input_test=[
+        player2, player2, player2, player1, player1, player1, player1, player2, player1, player1
+    ])
+    tennis_game4.start_match()
