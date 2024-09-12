@@ -4,7 +4,7 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - test
+      - main
   pull_request:
     branches:
       - main
