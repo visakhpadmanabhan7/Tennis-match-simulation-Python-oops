@@ -72,8 +72,7 @@ class TennisGame(Game) :
         self.print_current_score()
         match_result=self.match_result()
         if (match_result):
-            print(f"Match Finished,{match_result.get_player_name()} won")
-        print("xxxxxxxxxxxxxxxxxxxxxx")
+            return (f"Match Finished,{match_result.get_player_name()} won")
 
 
 
